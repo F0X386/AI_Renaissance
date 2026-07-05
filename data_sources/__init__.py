@@ -14,6 +14,7 @@ from .market_sentiment import MarketSentimentDataSource
 from .industry_sentiment import IndustrySentimentDataSource
 from .community_sentiment import CommunitySentimentDataSource
 from .keywords import BULLISH_KEYWORDS, BEARISH_KEYWORDS, calc_sentiment_ratio
+from .macro_data import MacroDataSource, create_macro_source, fetch_macro_batch
 
 __all__ = [
     "CninfoDataSource",
@@ -24,6 +25,9 @@ __all__ = [
     "MarketSentimentDataSource",
     "IndustrySentimentDataSource",
     "CommunitySentimentDataSource",
+    "MacroDataSource",
+    "create_macro_source",
+    "fetch_macro_batch",
     "BULLISH_KEYWORDS",
     "BEARISH_KEYWORDS",
     "calc_sentiment_ratio",

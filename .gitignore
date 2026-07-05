@@ -38,7 +38,9 @@ logs/
 
 # Environment
 .env
-.<环境影响>
+
+# Macro development workspace (temporary artifacts)
+skills/macro/_workspace/**
 
 # Data (only root-level data/, not skills/data/)
 /data/
